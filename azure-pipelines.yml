@@ -54,7 +54,7 @@ steps:
     arguments: '--no-build --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(buildConfiguration)'
     zipAfterPublish: true
 
-- task: WhiteSource Bold@20
+- task: WhiteSource Bolt@20
   displayName: 'Run WhiteSpace Bolt'
 
 - task: PublishBuildArtifacts@1
